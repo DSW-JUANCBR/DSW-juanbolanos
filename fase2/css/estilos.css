@@ -2,7 +2,8 @@ body{
     background-color: hsl(250, 23%, 95%);
 }
 header{
-    background-color: #FEE2B3;
+    background-color: #757067;
+    text-align: center;
     }
 nav{
         background-color: #FFA299;
