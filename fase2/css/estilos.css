@@ -1,0 +1,21 @@
+body{
+    background-color: #b4b0cf;
+}
+header{
+    background-color: #C8C6A7;
+    }
+nav{
+        background-color: #92967D;
+
+    }
+section{
+        background-color: #92967D;
+        text-align: center; 
+    }
+article{
+        background-color: #6E7C7C;
+        text-align: center;
+    }
+footer{
+        background-color: #D8B9C3;
+}
