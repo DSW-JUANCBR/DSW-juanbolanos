@@ -1,20 +1,23 @@
 body{
-    background-color: #b4b0cf;
+    background-color: hsl(250, 23%, 95%);
 }
 header{
-    background-color: #C8C6A7;
+    background-color: #FEE2B3;
     }
 nav{
-        background-color: #92967D;
+        background-color: #FFA299;
 
     }
 section{
-        background-color: #92967D;
-        text-align: center; 
+        background-color: #AD6989;
+        text-align: center;
+        color: white;
+        
     }
 article{
-        background-color: #6E7C7C;
+        background-color: #562349;
         text-align: center;
+        color: white;
     }
 footer{
         background-color: #D8B9C3;

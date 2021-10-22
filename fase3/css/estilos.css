@@ -1,12 +1,16 @@
 body{
     background-color: #b4b0cf;
 }
+header{
+    text-align: center;
+}
 nav{
     background-color: #C8C6A7;
     }
 section{
     grid-column: 1/4;
     background-color: #92967D;
+    text-align: center;
     }
 aside{
         background-color: #92967D;
