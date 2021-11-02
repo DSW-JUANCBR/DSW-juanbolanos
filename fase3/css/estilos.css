@@ -4,35 +4,66 @@ body{
 }
 header{
     text-align: center;
-
 }
-nav{
+/*GENERAL */
 
-    background-color: #ECF7C5;
-    margin: auto;
-    width: 500px;
-    font-family: Arial, Helvetica, sans-serif;
+nav ul{
+    list-style: none;
+    padding: 0;
 }
 
-nav li a:hover{
-        background-color: #434343;
+nav li{
+    line-height: 3rem;
+    position: relative;
 }
 
-nav > li {
+nav li ul{
+    position: absolute;
+    display: none;
+}
+
+nav li:hover ul{
+    display: block;
+}
+
+nav a{
+    text-decoration: none;
+    color: ddd;
+    display: block;
+    padding: 0 7.4em;
+    transition: .4%;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.5);
+}
+
+nav ul ul ul{
+    display: none;
+}
+
+/*PRIMER NIVEL*/
+nav > ul{
+    background: rgb(223, 214, 214);
+    display: table;
+    width: 100%;
+}
+nav > ul > li{
     float: left;
 }
 
-ul, ol {
-list-style: none;
-    }
+/*SEGUNDO NIVEL */
+nav li li{
+    background: rgb(214, 203, 203);
+    width: 500px;
+}
 
-    li a{
-        background-color: black;
-        color: #ECF7C5;
-        text-decoration: none;
-        padding: 10px 15px;
-        display: block;
-    }
+nav > ul > li > ul{
+    top: 100%;
+}
+
+/*TERCER NIVEL*/
+
 
 
 
