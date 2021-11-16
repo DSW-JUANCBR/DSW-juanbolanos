@@ -1,25 +1,84 @@
 body{
-    background-color: hsl(250, 23%, 95%);
+    background-color: #c99ce4;
+    text-align: center;
 }
 header{
-    background-color: #757067;
     text-align: center;
-    }
-nav{
-        background-color: #FFA299;
+}
+/*GENERAL */
 
-    }
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    line-height: 3rem;
+    position: relative;
+}
+
+nav li ul{
+    position: absolute;
+    display: none;
+}
+
+nav li:hover ul{
+    display: block;
+}
+
+nav a{
+    text-decoration: none;
+    color: ddd;
+    display: block;
+    padding: 0 6.0em;
+    transition: .4%;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.5);
+}
+
+nav ul ul ul{
+    display: none;
+}
+
+/*PRIMER NIVEL*/
+nav > ul{
+    background: rgb(223, 214, 214);
+    display: table;
+    width: 100%;
+}
+nav > ul > li{
+    float: left;
+}
+
+/*SEGUNDO NIVEL */
+nav li li{
+    background: rgb(214, 203, 203);
+    width: 500px;
+}
+
+nav > ul > li > ul{
+    top: 100%;
+}
+
+/*TERCER NIVEL*/
+
 section{
-        background-color: #AD6989;
-        text-align: center;
-        color: white;
-        
+    grid-column: 1/4;
+    background-color: #515748;
+    text-align: center;
+    color: white;
     }
-article{
-        background-color: #562349;
-        text-align: center;
-        color: white;
+aside{
+        background-color: #92967D;
+        text-align: center; 
     }
 footer{
-        background-color: #D8B9C3;
+        background-color: #6E7C7C;
+        text-align: center;
+    }
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
