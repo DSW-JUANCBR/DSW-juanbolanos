@@ -1,66 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
-    <header>
-        <h1>
-            INTERACCIÓN HUMANO ORDENADOR
-        </h1>
+    <header class="container-fluid text-left">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 text-center">
+                <h1>INTERACCIÓN HUMANO ORDENADOR</h1>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 text-center"> <img src="img/logo.png" alt="logo"
+                    width="150px" height="100 px"></a></div>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="index.html">temas</a>
-                    <ul>
-                        <li><a href="tema1.html">Sintaxis y selectores CSS</a></li>
-                        <li><a href="tema2.html">Interaccion humano Ordenador</a></li>
-                    </ul>
-            </li>
-            <li><a href="recurso1.html">recursos</a>
-                <ul>
-                    <li><a href="recurso1.html">Recurso 1</a></li>
-                    <li><a href="recurso2.html">Recurso 2</a></li>
+    <nav class="navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Temas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="tema1.html">Sintaxis y Selectores CSS</a></li>
+                            <li><a class="dropdown-item" href="tema2.html">Interacción Humano Ordenador</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recursos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="recurso1.html">recurso 1</a></li>
+                            <li><a class="dropdown-item" href="recurso2.html">recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="evaluacion1.html">Evaluacion 1</a></li>
+                            <li><a class="dropdown-item" href="evaluacion2.html">Evaluación 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autor.html">Autor</a>
+                    </li>
                 </ul>
-            </li>
-            <li><a href="#">Aprendizaje</a>
-                <ul>
-                    <li><a href="evaluacion1.html">Evaluación 1</a></li>
-                    <li><a href="evaluacion2.html">Evaluación 2</a></li>
-                </ul>
-            </li>
-            <li><a href="autor.html">Autor</a></li>
-        </ul>
+            </div>
+        </div>
     </nav>
-    <main>
-        <section>
-            <article>
-                <h4>INTERACCIÓN HUMANO ORDENADOR</h4>
-                <img src="img/interaccion humano ordenador.jpeg" alt="interaccion">
-                <P> 
-                    La Interacción Humano-Computadora (HCI), es el estudio de la interacción entre el ser
-                    humano, las computadoras y las tareas que se desarrollan; principalmente se enfoca a
-                    conocer cómo la gente y las computadoras pueden interactuar para llevar a cabo tareas
-                    por medio de sistemas y software.
-                    La Interacción Humano-Computadora se convirtió oficialmente en una disciplina con el advenimiento de la computadora personal. 
-                    Con el primer Macintosh, IBM PC 5150 y Commodore 64 utilizados en la oficina, la gente empezó a darse cuenta de cómo esta transición
-                    afectará no sólo a su trabajo sino a sus vidas en general. Los PCs fueron lanzados con muchas nuevas características como procesadores de texto, 
-                    facilidades de juego y ayudas de contabilidad. Con el tiempo, su nivel de sofisticación aumentó hasta el punto en que el objetivo era hacer que la interacción
-                    hombre-computadora se asemejara a la interacción entre humanos, de la forma más natural y sin fisuras posible
-                </P>
-                <p>Martínez de la Teja, G. M. (2007). Ergonomía e interfaces de interacción humano-computadora. In IX Congreso Internacional de la Ergonomía (p. 8).</p>
-                <a href="http://www.semac.org.mx/archivos/9-6.pdf">Interaccion Humano ordenador</a>
-            </article>
-        </section>
-        <aside>mi seccion lateral
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-        </aside>
-    </main>
-    <footer>jcbolanosr@unadvirtual.edu.co</footer>
+    <div class="container bg-secondary">
+        <main>
+            <section class="row">
+                <article class="row">
+                    <p> </p><br>
+                    <div class="col-md-10 text-center m-0.2 text-white">
+                        <img src="img/interaccion humano ordenador.jpeg" alt="interaccion">
+                        <P>
+                            La Interacción Humano-Computadora (HCI), es el estudio de la interacción entre el ser
+                            humano, las computadoras y las tareas que se desarrollan; principalmente se enfoca a
+                            conocer cómo la gente y las computadoras pueden interactuar para llevar a cabo tareas
+                            por medio de sistemas y software.
+                            La Interacción Humano-Computadora se convirtió oficialmente en una disciplina con el
+                            advenimiento de la computadora personal.
+                            Con el primer Macintosh, IBM PC 5150 y Commodore 64 utilizados en la oficina, la gente
+                            empezó a darse cuenta de cómo esta transición
+                            afectará no sólo a su trabajo sino a sus vidas en general. Los PCs fueron lanzados con
+                            muchas nuevas características como procesadores de texto,
+                            facilidades de juego y ayudas de contabilidad. Con el tiempo, su nivel de sofisticación
+                            aumentó hasta el punto en que el objetivo era hacer que la interacción
+                            hombre-computadora se asemejara a la interacción entre humanos, de la forma más natural y
+                            sin fisuras posible
+                        </P>
+                        <p>Martínez de la Teja, G. M. (2007). Ergonomía e interfaces de interacción humano-computadora.
+                            In IX Congreso Internacional de la Ergonomía (p. 8).</p>
+                        <a href="http://www.semac.org.mx/archivos/9-6.pdf">Interaccion Humano ordenador</a>
+                    </div>
+                    <div class="col-md-2 bg-secondary">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer class="bg-dark text-white text-center">jcbolanosr@unadvirtual.edu.co</footer>
 </body>
+
 </html>

@@ -10,25 +10,23 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
-    <header class="container-fluid bg-primary">
+    <header class="container-fluid text-left">
         <div class="row">
-            <div class="col-3">columna 1</div>
-            <div class="col-7">SINTAXIS Y SELECTORES CSS</div>
-            <div class="col-2">columna 3</div>
+            <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 text-center">
+                <h1>SINTAXIS Y SELECTORES CSS</h1>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 text-center"> <img src="img/logo.png" alt="logo" width="150px" height="100 px"></a></div>
         </div>
     </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
@@ -70,41 +68,45 @@
             </div>
         </div>
     </nav>
-    <main>
-        <section>
-            <article class="row">
-                <div class="col-md-8 text-center m-0.2 ">
-                    <h4>SINTAXIS Y SELECTORES CSS</h4>
-                    <img src="img/sintaxiscss.gif" alt="regla css">
-                    <p>Un conjunto de reglas CSS consta de un selector y un bloque de declaración:</p>
-                    <img src="img/sintaxis.png" alt="ejemplo">
-                    <p>EL punto selector para el elemento HTML que desea estilo.
-                    </p> El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
-                    Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
-                    Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaraciones están
-                    rodeados
-                    por llaves.
-                    En el siguiente ejemplo todos los elementos serán alineados-centro, con un color rojo texto:
-                    </p>
-                    <img src="img/ejemplo1.png" alt="ejemplo uno">
-                    <p>Durango, Alicia. Diseño Web con CSS: 2ª Edición. IT Campus Academy, 2015.</p>
-                    <a
-                        href="https://books.google.com.co/books?hl=en&lr=&id=bCXsCgAAQBAJ&oi=fnd&pg=PA11&dq=sintaxis+y+selectores+css&ots=mJwn6UNp27&sig=sbV_EzBMHE9yX8g5YuLlACwfJhg&redir_esc=y#v=onepage&q=sintaxis%20y%20selectores%20css&f=false">Diseños
-                        web con CSS 2a Edicion
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <iframe
-                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowfullscreen="true"
-                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                    </iframe>
-                </div>
-            </article>
-        </section>
-    </main>
-    <footer>jcbolanosr@unadvirtual.edu.co</footer>
-</body>
+    <div class="container">
+        <main>
+            <section class="row">
+                <article class="row">
+                    <p> </p><br>
+                    <div class="col-md-10 text-center m-0.2 text-white">
+                        <img src="img/sintaxiscss.gif" alt="regla css">
+                        <p>Un conjunto de reglas CSS consta de un selector y un bloque de declaración:</p>
+                        <img src="img/sintaxis.png" alt="ejemplo">
+                        <p>EL punto selector para el elemento HTML que desea estilo.
+                        </p>
+                        <p>El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
+                            Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
+                            Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaraciones
+                            están
+                            rodeados
+                            por llaves.
+                            En el siguiente ejemplo todos los elementos serán alineados-centro, con un color rojo texto:
+                        </p>
+                        <img src="img/ejemplo1.png" alt="ejemplo uno">
+                        <p>Durango, Alicia. Diseño Web con CSS: 2ª Edición. IT Campus Academy, 2015.</p>
+                        <a
+                            href="https://books.google.com.co/books?hl=en&lr=&id=bCXsCgAAQBAJ&oi=fnd&pg=PA11&dq=sintaxis+y+selectores+css&ots=mJwn6UNp27&sig=sbV_EzBMHE9yX8g5YuLlACwfJhg&redir_esc=y#v=onepage&q=sintaxis%20y%20selectores%20css&f=false">Diseños
+                            web con CSS 2a Edicion
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                        </iframe>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
 
+</body>
+<footer class="bg-dark text-white text-center">jcbolanosr@unadvirtual.edu.co</footer>
 </html>
