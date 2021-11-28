@@ -9,28 +9,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-
 <body>
     <header class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 text-white text-center">
-                <p> </p><br>
-                <h1>SINTAXIS Y SELECTORES CSS</h1>
-                <p> </p><br>
+            <div class="col-lg-3">
+                <img src="img/logounad.png" class="img-thumbnail" width="200px" height="200px" alt="asd asd">
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 text-center">
-                 <img src="img/logo.png" alt="logo" width="150px" height="100 px">
+            <div class="col-lg-9 text-dark">
+                <br>
+                <br>
+                <br>
+                <h1>SINTAXIS Y SELECTORES CSS</h1>
+                <br>
             </div>
         </div>
     </header>
-    <nav class="navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <div>
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
@@ -72,47 +78,59 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <main>
-            <section class="row">
-                <article class="row">
-                    <p> </p><br>
-                    <div class="col-md-10 text-center m-0.2 text-white">
-                        <img src="img/sintaxiscss.gif" alt="regla css">
-                        <p>Un conjunto de reglas CSS consta de un selector y un bloque de declaración:</p>
-                        <img src="img/sintaxis.png" alt="ejemplo">
-                        <p>EL punto selector para el elemento HTML que desea estilo.
-                        </p>
-                        <p>El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
-                            Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
-                            Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaraciones
-                            están
-                            rodeados
-                            por llaves.
-                            En el siguiente ejemplo todos los elementos serán alineados-centro, con un color rojo texto:
-                        </p>
-                        <img src="img/ejemplo1.png" alt="ejemplo uno">
-                        <p>Durango, Alicia. Diseño Web con CSS: 2ª Edición. IT Campus Academy, 2015.</p>
-                        <a
-                            href="https://books.google.com.co/books?hl=en&lr=&id=bCXsCgAAQBAJ&oi=fnd&pg=PA11&dq=sintaxis+y+selectores+css&ots=mJwn6UNp27&sig=sbV_EzBMHE9yX8g5YuLlACwfJhg&redir_esc=y#v=onepage&q=sintaxis%20y%20selectores%20css&f=false">Diseños
-                            web con CSS 2a Edicion
-                        </a>
-                    </div>
-                    <div class="col-md-2">
-                        <iframe
-                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                            width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                            allowfullscreen="true"
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                        </iframe>
-                    </div>
-                </article>
-            </section>
-        </main>
-    </div>
-
+    <main class="container-fluid">
+        <section class="row">
+            <br>
+            <div class="col-md-8 text-center m-0.2 text-black">
+                <br>
+                <br>
+                <h4>SINTAXIS Y SELECTORES CSS</h4>
+                <figure class="figure">
+                    <img src="img/sintaxiscss.gif" class="figure-img img-fluid rounded" alt="asd asd">
+                    <figcaption class="figure-caption">Un conjunto de reglas CSS consta de un selector y un bloque de
+                        declaración:</figcaption>
+                </figure>
+                <br>
+                <figure class="figure">
+                    <img src="img/sintaxis.png" class="figure-img img-fluid rounded" alt="asd asd">
+                    <figcaption class="figure-caption">EL punto selector para el elemento HTML que desea estilo.
+                    </figcaption>
+                </figure>
+                <br>
+                <p>El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
+                    Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
+                    Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaraciones
+                    están
+                    rodeados
+                    por llaves.
+                    En el siguiente ejemplo todos los elementos serán alineados-centro, con un color rojo texto:
+                </p>
+                <figure class="figure">
+                    <img src="img/ejemplo1.png" class="figure-img img-fluid rounded" alt="asd asd">
+                    <figcaption class="figure-caption">Durango, Alicia. Diseño Web con CSS: 2ª Edición. IT Campus
+                        Academy, 2015.</figcaption>
+                </figure>
+                <br>
+                <a
+                    href="https://books.google.com.co/books?hl=en&lr=&id=bCXsCgAAQBAJ&oi=fnd&pg=PA11&dq=sintaxis+y+selectores+css&ots=mJwn6UNp27&sig=sbV_EzBMHE9yX8g5YuLlACwfJhg&redir_esc=y#v=onepage&q=sintaxis%20y%20selectores%20css&f=false">Diseños
+                    web con CSS 2a Edicion
+                </a>
+            </div>
+            <aside class="col-md-4 text-center">
+                <br>
+                <br>
+                <iframe
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe>
+            </aside>
+        </section>
+    </main>
 </body>
 <footer class="bg-dark text-white text-center">
     jcbolanosr@unadvirtual.edu.co
 </footer>
+
 </html>

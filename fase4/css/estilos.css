@@ -1,8 +1,10 @@
 body{
-    background-color:#c99ce4;
+    background-color:#d5a4f3;
 }
-
+aside{
+    background-color: #c677ee;
+}
 iframe {
-    max-width: 80%;
-    height: 50vh;
+    max-width: 90%;
+    height: 60vh;
 }
